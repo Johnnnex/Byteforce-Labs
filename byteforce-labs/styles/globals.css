@@ -11,5 +11,4 @@ header {
   transition: .5s;
   background-color: white;
   padding-block: 1rem;
-  position: sticky !important;
 }

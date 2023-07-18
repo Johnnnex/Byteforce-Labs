@@ -1,6 +1,7 @@
 import HeadComp from '@/layout/Head'
 import React from 'react'
 import Image from 'next/image'
+import AboutUs from '../reusable-components/AboutUs'
 
 const Homepage = () => {
   return (
@@ -26,6 +27,7 @@ const Homepage = () => {
                     </div> */}
                 </div>
             </section>
+            <AboutUs />
         </main>
     </>
   )
