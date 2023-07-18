@@ -9,8 +9,10 @@ module.exports = {
   ], 
   theme: {
     extend: {
-      poppins:['Poppins', "sans-serif"],
-      robotoMono: ['Roboto Mono', "monospace"]
+      fontFamily : {
+        poppins: ['Poppins', "sans-serif"],
+        robotoMono: ['Roboto Mono', "monospace"]
+      },
     },
   },
   plugins: [],
