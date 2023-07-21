@@ -17,9 +17,9 @@ const Header = () => {
 
             <div className="w-[40%] ">
                 <nav>
-                    <ul className='flex justify-evenly'>
+                    <ul className='flex font-robotoMono justify-evenly'>
                         <li>Home</li>
-                        <li>Services</li>
+                        <li>About Us</li>
                         <li>Team</li>
                         <li>Contact-Us</li>
                             
@@ -28,7 +28,7 @@ const Header = () => {
             </div>
 
             <div className="">
-                <button className=" border-2 px-[1rem] py-2 bg-[#00a2ff]">Get in Touch</button>
+                <button className="font-robotoMono border-2 px-[1rem] py-2 bg-[#00a2ff]">Get in Touch</button>
             </div>
         </header>
     </>
