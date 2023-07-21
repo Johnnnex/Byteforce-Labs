@@ -21,7 +21,7 @@ const Header = () => {
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Team</li>
-                        <li>Contact-Us</li>
+                        <li>Contact Us</li>
                             
                     </ul>
                 </nav>
