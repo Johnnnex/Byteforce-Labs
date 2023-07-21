@@ -11,7 +11,7 @@ const OurServices = () => {
             </div>
             <div className="w-[49%] h-[20rem] items-center border-2 border-[#808080] rounded-[3rem] pl-[2rem] flex justify-between">
                 <div className="w-[55%]">
-                    <button className="border-2 border-[#808080] px-[2rem] py-1 rounded-lg">Interior</button>
+                    <button className="border-2 border-[#808080] px-[2rem] py-1 rounded-lg font-robotoMono">Interior</button>
                     <h3 className=" font-poppins font-[600] text-[1.8rem] mt-[0.4rem]">Return on investment</h3>
                     <p className=" font-robotoMono">Lorem ipsum dolor, sit amet consectetur  facilis eligendi voluptatum nam quos unde beatae laboriosam aut necessitatibus! Deleniti esse error ipsa amet!</p>
                 </div>
@@ -32,7 +32,7 @@ const OurServices = () => {
             </div>
             <div className="w-[49%] h-[20rem] items-center border-2 border-[#808080] rounded-[3rem] pl-[2rem] flex justify-between">
                 <div className="w-[55%]">
-                    <button className="border-2 border-[#808080] px-[2rem] py-1 rounded-lg">Interior</button>
+                    <button className="border-2 border-[#808080] px-[2rem] py-1 rounded-lg font-robotoMono">Interior</button>
                     <h3 className=" font-poppins font-[600] text-[1.8rem] mt-[0.4rem]">Return on investment</h3>
                     <p className=" font-robotoMono">Lorem ipsum dolor, sit amet consectetur  facilis eligendi voluptatum nam quos unde beatae laboriosam aut necessitatibus! Deleniti esse error ipsa amet!</p>
                 </div>
