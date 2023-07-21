@@ -14,16 +14,28 @@ const ContactUs = () => {
             <div className="flex">
                 <div className="">
                     <div className="">
-                        <div className="">
+                        <div className="bg-black">
                             <Image src="/Images/subscribe.svg" alt='contact-icon' height={1} width={20} />
                         </div>
-                        <div className=""></div>
+                        <div className="">
+                            <p>
+                                <small></small> <br />
+                                
+
+                            </p>
+                        </div>
                     </div>
                     <div className="">
-                        <div className="">
+                        <div className="bg-black">
                             <Image src="/Images/subscribe.svg" alt='contact-icon' height={1} width={20} />
                         </div>
-                        <div className=""></div>
+                        <div className="">
+                            <p>
+                                <small></small> <br />
+                                
+
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className=""></div>
