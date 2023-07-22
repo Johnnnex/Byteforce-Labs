@@ -4,6 +4,7 @@ import Image from 'next/image'
 import AboutUs from '@/reusable-components/AboutUs'
 import OurServices from '@/reusable-components/OurServices'
 import ContactUs from '@/reusable-components/ContactUs'
+import Testimonial from '@/reusable-components/Testimonial'
 
 const Homepage = () => {
   return (
@@ -32,6 +33,7 @@ const Homepage = () => {
             <AboutUs />
             <OurServices />
             <ContactUs />
+            <Testimonial />
         </main>
     </>
   )

@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const ContactUs = () => {
   return (
     <>
         <section className="mt-[8rem] w-[90%] mx-auto">
-            <h3 className="font-poppins font-[700] text-[1rem] bg-slate-300 w-fit px-3 rounded-md text-red-600">Contact Us</h3>
+            <h2 className="font-poppins font-[700] text-[1rem] bg-slate-300 w-fit px-3 rounded-md text-red-600">Contact Us</h2>
             <p className=" font-robotoMono italic text-[1.3rem]">
                 <b className="font-poppins not-italic font-[700] text-[3rem]">Don't hesitate</b> <br />
                 to talk with us
@@ -25,7 +26,7 @@ const ContactUs = () => {
                         </div>
                     </div>
                     <div className="flex items-center gap-4">
-                        <div className="flex items-center justify-center bxshadow bg-slate-400 p-4 rounded-[50%]">
+                        <div className="flex items-center justify-center bxshadow bg-red-300 p-4 rounded-[50%]">
                             <Image src="/Images/phone.svg" alt='contact-icon' height={1} width={30} />
                         </div>
                         
