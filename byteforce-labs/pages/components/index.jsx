@@ -1,9 +1,9 @@
 import HeadComp from '@/layout/Head'
 import React from 'react'
 import Image from 'next/image'
-import AboutUs from '../reusable-components/AboutUs'
-import OurServices from '../reusable-components/OurServices'
-import ContactUs from '../reusable-components/ContactUs'
+import AboutUs from '@/reusable-components/AboutUs'
+import OurServices from '@/reusable-components/OurServices'
+import ContactUs from '@/reusable-components/ContactUs'
 
 const Homepage = () => {
   return (
