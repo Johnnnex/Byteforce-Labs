@@ -44,3 +44,6 @@ header {
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+.star-svg {
+  width: 25px; 
+}
