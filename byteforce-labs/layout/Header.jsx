@@ -10,7 +10,7 @@ const Header = () => {
   return (
     
     <>
-        <header ref={header} className='flex sticky top-0 left-0 w-[100%] py-[2rem] justify-between px-[1rem] items-center'>
+        <header ref={header} className='flex sticky z-[2] top-0 left-0 w-[100%] py-[2rem] justify-between px-[1rem] items-center'>
             <div className="">
                 <h2 className='font-poppins'>Byteforce-labs</h2>
             </div>

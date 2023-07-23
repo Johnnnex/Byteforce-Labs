@@ -16,10 +16,10 @@ const Testimonial = () => {
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
   return (
-    <section className="bg-[#110c32a7] ">
-        <div className="mt-[8rem] w-[90%] mx-auto">
+    <section className="bg-[#110c32a7] mt-[7rem] py-[5rem]">
+        <div className="w-[90%] mx-auto">
             <h2 className="font-poppins font-[700] text-[3rem]">What our clients say</h2>
-            <p className="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea error excepturi nostrum? Odio suscipit tempore, et quaerat earum architecto </p>
+            <p className=" font-robotoMono font-thin w-[50%] mt-[1rem] mb-[3rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea error excepturi nostrum? Odio suscipit tempore, et quaerat earum architecto </p>
             <Swiper
                 className="h-fit"
                 grabCursor={true}
