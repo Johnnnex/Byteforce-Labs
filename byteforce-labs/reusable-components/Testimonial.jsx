@@ -15,7 +15,7 @@ const Testimonial = () => {
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
   return (
-    <section className="bg-[#00000045] ">
+    <section className="bg-[#110c32a7] ">
         <div className="mt-[8rem] w-[90%] mx-auto">
             <h2 className="">What our clients say</h2>
             <p className="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea error excepturi nostrum? Odio suscipit tempore, et quaerat earum architecto </p>
@@ -37,40 +37,60 @@ const Testimonial = () => {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
                 >
-                    <SwiperSlide className="border-2">
+                    <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                         <div className="">5 stars</div>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                        <div className="">
-                            <Image src="/Images/pfp-img.jpg" alt="pfp-img" height={1} width={20} />
+                        <p className="my-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
+                        <div className="flex justify-between">
+                            <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                            <p className="w-[80%] font-robotoMono">
+                                <b className="font-poppins">John Doe</b> <br />
+                                M.D, Johnex corp.
+                            </p>
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide className='border-2'>
+                    <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                         <div className="">5 stars</div>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                        <div className="">
-                            <Image src="/Images/pfp-img.jpg" alt="pfp-img" height={1} width={20} />
+                        <p className="my-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
+                        <div className="flex justify-between">
+                            <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                            <p className="w-[80%] font-robotoMono">
+                                <b className="font-poppins">John Doe</b> <br />
+                                M.D, Johnex corp.
+                            </p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                         <div className="">5 stars</div>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                        <div className="">
-                            <Image src="/Images/pfp-img.jpg" alt="pfp-img" height={1} width={20} />
+                        <p className="my-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
+                        <div className="flex justify-between">
+                            <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                            <p className="w-[80%] font-robotoMono">
+                                <b className="font-poppins">John Doe</b> <br />
+                                M.D, Johnex corp.
+                            </p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                         <div className="">5 stars</div>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                        <div className="">
-                            <Image src="/Images/pfp-img.jpg" alt="pfp-img" height={1} width={20} />
+                        <p className="my-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
+                        <div className="flex justify-between">
+                            <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                            <p className="w-[80%] font-robotoMono">
+                                <b className="font-poppins">John Doe</b> <br />
+                                M.D, Johnex corp.
+                            </p>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='bg-[#808080] px-5 py-7 rounded-[8px]'>
                         <div className="">5 stars</div>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
-                        <div className="">
-                            <Image src="/Images/pfp-img.jpg" alt="pfp-img" height={1} width={20} />
+                        <p className="my-[1rem] font-robotoMono">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias obcaecati illo excepturi accusamus, molestiae iure voluptate officiis harum consequatur ratione magni ullam ex quaerat, voluptatem, quos facilis corporis consectetur deleniti.</p>
+                        <div className="flex justify-between">
+                            <Image src="/Images/pfp-imgg.jpg" className='rounded-[50%]' alt="pfp-img" height={1} width={50} />
+                            <p className="w-[80%] font-robotoMono">
+                                <b className="font-poppins">John Doe</b> <br />
+                                M.D, Johnex corp.
+                            </p>
                         </div>
                     </SwiperSlide>
                     <div className="autoplay-progress" slot="container-end">
